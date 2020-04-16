@@ -3,6 +3,7 @@ import {MDBContainer, MDBRow, MDBCol} from 'mdbreact';
 import SmallNav from '../components/SmallNav';
 import MainNav from '../components/MainNav';
 
+
 const Appointment = () => {
   return (
     <div>
@@ -15,6 +16,17 @@ const Appointment = () => {
               <p>Hassle-free booking for our clients at your<br/>convenient time</p>
           </MDBCol>
         </MDBRow>
+      </MDBContainer>
+      <MDBContainer>
+      <MDBRow>
+            <MDBCol size="4">
+            <h3 className="servicetext">Select a Service</h3><br/>
+           
+            </MDBCol>
+            <MDBCol size="4">.col-4</MDBCol>
+            <MDBCol size="4">.col-4</MDBCol>
+          </MDBRow>
+     
       </MDBContainer>
     </div>
   );

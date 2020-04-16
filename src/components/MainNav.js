@@ -29,13 +29,13 @@ render(props) {
         <MDBCollapse id="navbarCollapse3" isOpen={this.state.isOpen} navbar>
           <MDBNavbarNav left>
             <MDBNavItem>
-              <MDBNavLink to="/HomePage" className={`omega nav-link ${active}`}>Home</MDBNavLink>
+              <MDBNavLink to="/Home" >Home</MDBNavLink>
             </MDBNavItem>
             <MDBNavItem>
-              <MDBNavLink to="#!">Services</MDBNavLink>
+              <MDBNavLink to="/Services">Services</MDBNavLink>
             </MDBNavItem>
             <MDBNavItem>
-              <MDBNavLink to="#!">Contact Us</MDBNavLink>
+              <MDBNavLink to="/Contacts">Contact Us</MDBNavLink>
             </MDBNavItem>
             
           </MDBNavbarNav>

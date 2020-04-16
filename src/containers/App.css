@@ -28,6 +28,12 @@
   min-height: 35rem;
 }
 
+.servicetext{
+  font-weight: bolder;
+  padding-right: 5rem;
+  margin-top: 10px;
+}
+
 .moretext{
   color: beige;
 }
