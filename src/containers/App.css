@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'Product Sans Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Product Sans Bold'), url('ProductSans-Bold.woff') format('woff');
+  }
+
 .App {
   text-align: center;
 }
@@ -17,11 +24,47 @@
   padding-top: 1rem;
 }
 
+.colheight{
+  min-height: 35rem;
+}
+
+.moretext{
+  color: beige;
+}
+
+.smallbox{
+  border: solid rgb(233, 223, 223) 1px ;
+  border-radius: 20px;
+  min-height: 15rem;
+  margin-top: 2.5rem;
+  background-color: rgb(116, 214, 201);
+  font-family: 'Product Sans Bold';
+  color: beige;
+}
+
 .infotext{
   color: beige;
+  font-size: larger;
 }
 
 .lineIcon{
   margin-left: 8px;
   margin-right: 8px;
+}
+
+
+.pageback{
+  border: 1px rgb(209, 204, 204) solid;
+  min-height: 44rem;
+}
+
+.boldtext{
+  padding-top: 10px;
+  margin-top: 100px;
+  font-family: 'Product Sans Bold';
+  color: beige;
+}
+
+.footcolor{
+  background-color: rgb(131, 145, 139);
 }
