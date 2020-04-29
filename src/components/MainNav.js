@@ -4,9 +4,6 @@ import { BrowserRouter as Router } from 'react-router-dom';
 
 
 
-let active = "";
-
-
 
 class NavbarPage extends Component {
 state = {
@@ -17,8 +14,7 @@ toggleCollapse = () => {
   this.setState({ isOpen: !this.state.isOpen });
 }
 
-render(props) {
-    active = props === true ? "active" : "";
+render() {
   return (
     <Router>
       <MDBNavbar color="default-color" dark expand="md">
